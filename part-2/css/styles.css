@@ -3,27 +3,62 @@
 *::after {
   box-sizing: border-box;
 }
-
 html {
   box-sizing: inherit;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%; /* this will be 16px on most browsers */
   line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
 }
-
 body {
-  margin: 0;
+  margin: 0 20px;
 }
-
+article {
+  background-color: white;
+  border-style: groove;
+  width: 500px;
+  height: 320px;
+  padding: 5px;
+  margin: 2px;
+  border-color: lightgrey;
+}
 img {
   max-width: 100%;
+  width: 200px;
+  height: 300px;
 }
-
 figure {
   margin: 0;
 }
-
 .film {
   width: 50%;
-  margin: 40px auto;
+  margin: 20px auto;
+}
+.film-poster { 
+  float: left;
+  width: 33.33%;
+}
+.action-watch-later {
+  position: relative;
+  float: right;
+  top: 15px;
+  right: 40px;
+  color: red;
+}
+.film-details {
+  float: right;
+  width: 65%;
+}
+.action-like-one {
+  position: relative;
+  float: right;
+  color: red;
+  top: 40px;
+  right: 8px;
+}
+.action-like-two {
+  position: relative;
+  float: right;
+  color: red;
+  top: 135px;
+  right: 8px;
 }
